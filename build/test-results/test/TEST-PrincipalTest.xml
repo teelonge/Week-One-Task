@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrincipalTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-12-17T20:23:46" hostname="users-MacBook-Pro.local" time="0.029">
+  <properties/>
+  <testcase name="should_add_student_to_a_specified_class" classname="PrincipalTest" time="0.0"/>
+  <testcase name="should_remove_student_from_the_students_database" classname="PrincipalTest" time="0.004"/>
+  <testcase name="should_remove_teacher_from_teacher_list" classname="PrincipalTest" time="0.001"/>
+  <testcase name="test_checks_if_applicant_is_successfully_in_applcants_list" classname="PrincipalTest" time="0.0"/>
+  <testcase name="checks_if_teacher_is_in_list_of_teachers" classname="PrincipalTest" time="0.0"/>
+  <testcase name="should_set_students_fee_based_on_class_been_added_to" classname="PrincipalTest" time="0.001"/>
+  <testcase name="test_discipline_students_should_return_true" classname="PrincipalTest" time="0.0"/>
+  <testcase name="should_set_teachers_duty_to_true" classname="PrincipalTest" time="0.002"/>
+  <testcase name="checks_if_course_is_in_list_of_courses" classname="PrincipalTest" time="0.001"/>
+  <testcase name="test_should_return_a_list_of_all_non_academic_staff" classname="PrincipalTest" time="0.0"/>
+  <testcase name="should_return_a_list_of_all_students_detail" classname="PrincipalTest" time="0.001"/>
+  <testcase name="test_to_check_the_class_student_is_in" classname="PrincipalTest" time="0.0"/>
+  <testcase name="test_should_return_a_list_of_all_course" classname="PrincipalTest" time="0.001"/>
+  <testcase name="should_add_newly_created_applicant_to_applicants_list" classname="PrincipalTest" time="0.0"/>
+  <testcase name="should_add_applicant_to_the_students_map" classname="PrincipalTest" time="0.007"/>
+  <testcase name="should_return_a_string_with_the_principal_car_details" classname="PrincipalTest" time="0.0"/>
+  <testcase name="should_return_a_list_of_all_teachers_details" classname="PrincipalTest" time="0.001"/>
+  <system-out><![CDATA[Segun James has been expelled from the school
+Bolanle successfully sacked
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

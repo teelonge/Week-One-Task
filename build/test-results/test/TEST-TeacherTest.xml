@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TeacherTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-12-17T20:23:45" hostname="users-MacBook-Pro.local" time="0.065">
+  <properties/>
+  <testcase name="should_return_teacher_details" classname="TeacherTest" time="0.005"/>
+  <testcase name="should_return_the_last_name_of_the_teacher" classname="TeacherTest" time="0.0"/>
+  <testcase name="should_return_the_idNo_of_the_teacher" classname="TeacherTest" time="0.001"/>
+  <testcase name="should_return_the_sex_of_the_teacher" classname="TeacherTest" time="0.0"/>
+  <testcase name="should_return_the_age_of_the_teacher" classname="TeacherTest" time="0.0"/>
+  <testcase name="should_return_the_first_name_of_the_teacher" classname="TeacherTest" time="0.001"/>
+  <testcase name="should_return_dutyStaus_of_the_teacher" classname="TeacherTest" time="0.0"/>
+  <testcase name="should_retun_salary_of_teacher" classname="TeacherTest" time="0.002"/>
+  <testcase name="should_return_the_id_Card_Color_of_the_teacher" classname="TeacherTest" time="0.0"/>
+  <testcase name="should_tell_that_a_teacher_can_discipline_a_student" classname="TeacherTest" time="0.006"/>
+  <testcase name="should_return_the_full_name_of_the_teacher" classname="TeacherTest" time="0.001"/>
+  <testcase name="test_shows_that_teacher_drives_a_car" classname="TeacherTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
