@@ -181,9 +181,16 @@ class Principal(idNo: Int, firstName: String, lastName: String,
 
 
                 println("Enter new student class")
-                val className = readLine().toString()
-                val classes = Classes.valueOf(className)
-                addStudentToClass(applicant, classes)
+                var className = readLine().toString()
+                while (!classNameIsCorrect(className)){
+                    println("The class entered isn't correct")
+                    println("Enter new student class")
+                    className = readLine().toString()
+                }
+                if(classNameIsCorrect(className)) {
+                    val classes = Classes.valueOf(className)
+                    addStudentToClass(applicant, classes)
+                }
 
             } else {
                 val yearsToWait = 12 - applicant.getAge()
@@ -192,6 +199,10 @@ class Principal(idNo: Int, firstName: String, lastName: String,
 
         }
         applicants.clear()
+    }
+
+    private fun classNameIsCorrect(className : String) : Boolean{
+        return className == "SS1" || className == "SS2" || className == "SS3" || className == "JSS1" || className == "JSS2" || className == "JSS3"
     }
 
     /**

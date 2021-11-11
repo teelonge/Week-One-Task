@@ -1,7 +1,6 @@
 import org.junit.Test
 
 import org.junit.Assert.*
-import kotlin.test.asserter
 
 class StudentTest {
 
@@ -12,7 +11,7 @@ class StudentTest {
 
     @Test
     fun should_set_the_student_school_fee_based_on_the_class() {
-        principal.setStudentsSchoolFee(student,Classes.SS3)
+        principal.setStudentsSchoolFee(student, Classes.SS3)
         assertEquals(60000,student.getSchoolFees())
     }
 
@@ -33,7 +32,7 @@ class StudentTest {
     @Test
     fun should_return_the_details_of_the_student() {
         student.addCourse(course)
-        principal.setStudentsSchoolFee(student,Classes.SS3)
+        principal.setStudentsSchoolFee(student, Classes.SS3)
         val expected = "\nIDNO: 5678\tNAME: Bello Kreb\tAGE: 22 years\tSEX: male" +
                 "\tSCHOOL FEES: #60000\tIDCARD COLOR: Orange\nCOURSES ENROLLED:\n\tCOURSE NAME: Geography\tCOURSE UNITS: 4\n"
         val actual = student.studentsDetails()

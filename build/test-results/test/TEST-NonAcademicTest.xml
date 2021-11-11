@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NonAcademicTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-12-17T20:23:46" hostname="users-MacBook-Pro.local" time="0.002">
+<testsuite name="NonAcademicTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-11T13:56:15" hostname="Macs-MacBook-Pro-9.local" time="0.001">
   <properties/>
-  <testcase name="should_show_that_non_academic_doesnt_drive_a_car" classname="NonAcademicTest" time="0.0"/>
+  <testcase name="should_show_that_non_academic_doesnt_drive_a_car" classname="NonAcademicTest" time="0.001"/>
   <testcase name="test_to_show_that_a_nonacademic_cannot_discipline_students" classname="NonAcademicTest" time="0.0"/>
   <testcase name="should_return_details_of_the_non_academic_staff" classname="NonAcademicTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

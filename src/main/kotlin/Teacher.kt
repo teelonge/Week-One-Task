@@ -31,7 +31,8 @@ class Teacher(idNo: Int, firstName: String, lastName: String,
         /*
             Companion object to create one instance of a teacher and add it to the teachers list
          */
-        companion object{ fun createATeacher() : Teacher{
+        companion object{
+            fun createATeacher() : Teacher{
             println("Enter the teacher's details\n\tEnter the teacher's id Number")
             val idNo = readLine()?.toInt()
             println("\tEnter the first name")
@@ -44,5 +45,10 @@ class Teacher(idNo: Int, firstName: String, lastName: String,
             val sex = readLine().toString()
 
             return Teacher(idNo!!,firstName,lastName,age!!,sex)
-        }}
+        }
+
+
+        }
+
+
     }
